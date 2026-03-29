@@ -1,11 +1,11 @@
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
 
-
   return (
     <>
-      <button className='btn btn-primary'>Button</button>
+      <NavBar/>
     </>
   )
 }
