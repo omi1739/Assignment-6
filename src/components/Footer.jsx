@@ -3,10 +3,10 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
+    <footer className="bg-[#101727] border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-15 gap-12">
-          {/* Logo & Description */}
+          
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <h2 className="text-3xl font-bold tracking-tighter text-white">
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          
           <div className="md:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
@@ -110,7 +110,7 @@ const Footer = () => {
              
         </div>
 
-        {/* Bottom Bar */}
+        
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>
             © {new Date().getFullYear()} DigiTools. All rights reserved.
