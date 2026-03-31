@@ -1,10 +1,8 @@
 import React, { use } from "react";
 import DataCard from "./DataCard";
 
-const MainCard = ({ dataPromice }) => {
+const MainCard = ({ dataPromice, carts, setCarts }) => {
   const datas = use(dataPromice);
-  
-  console.log(datas);
 
   return (
     <div>
@@ -18,7 +16,7 @@ const MainCard = ({ dataPromice }) => {
 
       <div className="container grid mx-auto grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10 mt-10">
         {datas.map((card) => (
-         <DataCard key={card.id} card={card}/>
+         <DataCard key={card.id} card={card} carts={carts} setCarts={setCarts}/>
         ))}
       </div>
     </div>

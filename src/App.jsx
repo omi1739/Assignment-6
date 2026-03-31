@@ -22,6 +22,7 @@ const dataPromice = getData()
 function App() {
 
   const [activeTab, setActiveTab] = useState('Products')
+  const [carts, setCarts] = useState([])
 
   return (
     <>
@@ -33,9 +34,9 @@ function App() {
 
       <Tab setActiveTab={setActiveTab}/>
 
-      {activeTab === 'Products' && <MainCard dataPromice={dataPromice}/>}
+      {activeTab === 'Products' && <MainCard dataPromice={dataPromice} carts={carts} setCarts={setCarts} />}
 
-      {activeTab === 'Carts' && <Cart />}
+      {activeTab === 'Carts' && <Cart carts={carts} setCarts={setCarts} />}
 
       <Steps_3/>
 

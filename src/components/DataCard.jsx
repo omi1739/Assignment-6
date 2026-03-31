@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 
-const DataCard = ({card}) => {
+const DataCard = ({card , carts, setCarts }) => {
 
     const [isBuy, setIsBuy] = useState(false);
 
     const handleBuy = () =>{
         setIsBuy(true)
+        setCarts([...carts,card])
     }
     
   return (
