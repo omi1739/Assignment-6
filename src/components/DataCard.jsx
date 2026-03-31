@@ -22,7 +22,7 @@ const DataCard = ({card , carts, setCarts }) => {
     }
     
   return (
-     <div className=" shadow-lg rounded-lg border p-4">
+     <div className=" shadow-2xl rounded-lg  p-4">
             <div
               className={` w-25 text-center px-3 py-1 rounded-4xl ${
                 card.tagType === "popular"
