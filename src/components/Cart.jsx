@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaShoppingCart } from "react-icons/fa";
+import { toast } from 'react-toastify';
 
 const Cart = ({carts , setCarts}) => {
     console.log(carts);
@@ -10,12 +11,14 @@ const Cart = ({carts , setCarts}) => {
 
     const handleCart = () =>{
         setCarts([])
+        toast('proceed to checkout')
     };
 
     const handleRemove = (cart)=>{
         console.log(cart);
         const filteredArray = carts.filter(c => c.id !== cart.id )
         setCarts(filteredArray)
+        toast.success('item removed')
         
     }
     
