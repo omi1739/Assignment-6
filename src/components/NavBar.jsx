@@ -45,7 +45,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <a className=" text-4xl py-3 font-bold  bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+          <a className=" text-4xl py-3 font-bold ml-5  bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             DigiTools
           </a>
         </div>
@@ -69,12 +69,14 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end">
+        <div className="navbar-end  flex flex-row ">
           <FaShoppingCart size={24}></FaShoppingCart>
-          <div className=" btn btn-ghost m-1 p-2 font-medium">Login</div>
-          <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">
+          <div className="flex flex-col md:flex-row gap-5 mr-5 lg:flex-row">
+          <div className=" btn btn-outline rounded-4xl px-5 m-1 p-2 font-medium ml-5">Login</div>
+          <a className="btn bg-linear-to-r flex justify-center from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">
             Get Started
           </a>
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const MainCard = ({ dataPromice, carts, setCarts }) => {
         </p>
       </div>
 
-      <div className="container grid mx-auto grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10 mt-10">
+      <div className="container w-[90%] grid mx-auto grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10 mt-10">
         {datas.map((card) => (
          <DataCard key={card.id} card={card} carts={carts} setCarts={setCarts}/>
         ))}

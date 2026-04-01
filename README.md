@@ -79,24 +79,6 @@ This project is built with modern web technologies:
 
 
 ```
-src/
-├── components/          # Reusable page sections
-│   ├── NavBar.jsx      # Top navigation menu
-│   ├── Banner.jsx      # Hero section at the top
-│   ├── Status.jsx      # Statistics display
-│   ├── MainCard.jsx    # Product list and display
-│   ├── Cart.jsx        # Shopping cart page
-│   ├── Pricing.jsx     # Pricing plans section
-│   ├── Steps_3.jsx     # How it works section
-│   ├── LastBanner.jsx  # Final call-to-action section
-│   └── Footer.jsx      # Bottom of page with links
-├── assets/             # Images and icons
-│   └── products/       # Product images
-├── App.jsx             # Main app component (ties everything together)
-├── main.jsx            # Entry point (starts the app)
-└── data.json           # Product data (stored in public folder)
-```
-
 ---
 
 ##  How the App Works
@@ -127,8 +109,6 @@ src/
 
 ---
 
-
-
 The project uses a modern purple and pink gradient:
 
 - **Primary Color**: #4F39F6 (Purple)
@@ -136,7 +116,6 @@ The project uses a modern purple and pink gradient:
 - These colors create buttons, text highlights, and borders
 
 ---
-
 
 ##  How to Run This Project
 

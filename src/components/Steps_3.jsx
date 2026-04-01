@@ -17,7 +17,7 @@ const Steps_3 = () => {
         </div>
       </section>
 
-     <div className="container mx-auto grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div className="container w-[90%] mb-50 mx-auto grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* card-1 */}
         <div className="card w-80  bg-base-100 shadow-xl hover:shadow-2xl transition">
           <div className="card-body items-center text-center relative">

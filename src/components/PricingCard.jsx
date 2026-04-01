@@ -4,7 +4,7 @@ const PricingCard = () => {
   return (
     <div className="mb-10 w-[85%] gap-12.5 mx-auto mt-10  grid grid-cols-1 items-center  md:grid-cols-2 lg:grid-cols-3">
         {/* card-1 */}
-      <div className="card w-96 h-100 bg-gray-100 shadow-2xl">
+      <div className="card  h-100 bg-gray-100 shadow-2xl">
         <div className="card-body">
           
           <div className="">
@@ -90,7 +90,7 @@ const PricingCard = () => {
       </div>
 
       {/* card-2 */}
-      <div className="card w-96 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm">
+      <div className="card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-sm">
         <div className="card-body">
         <div className="mx-auto -mt-10">  <span className="badge badge-lg rounded-4xl badge-warning text-center">Most Popular</span></div>
           <div className="">
@@ -210,7 +210,7 @@ const PricingCard = () => {
       </div>
 
       {/* card-3 */}
-      <div className="card w-96 h-100 bg-gray-100 shadow-2xl">
+      <div className="card  h-100 bg-gray-100 shadow-2xl">
         <div className="card-body">
           
           <div className="">

@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="relative min-h-162.5 flex overflow-hidden md: items-center mx-auto">
+    <div className="relative  min-h-162.5 flex overflow-hidden md: m-30 items-center mx-auto">
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-4">
