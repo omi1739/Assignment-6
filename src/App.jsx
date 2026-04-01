@@ -32,7 +32,7 @@ function App() {
 
       <Status/>
 
-      <Tab  carts={carts} setActiveTab={setActiveTab}/>
+      <Tab  carts={carts} activeTab={activeTab} setActiveTab={setActiveTab}/>
 
       {activeTab === 'Products' && <MainCard dataPromice={dataPromice} carts={carts} setCarts={setCarts} />}
 

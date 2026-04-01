@@ -1,14 +1,14 @@
 import React from "react";
 
-const Tab = ({carts,setActiveTab}) => {
+const Tab = ({carts, activeTab,setActiveTab}) => {
   return (
     <div>
       {/* name of each tab group should be unique */}
-      <div className="tabs tabs-box justify-center mt-20 bg-transparent">
+      <div className="tabs gap-2 tabs-box justify-center mt-20 bg-transparent">
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
+          className={`tab text-lg rounded-full w-40 bg-amber-300 ${activeTab === "Products" ? "bg-amber-300" : "bg-gray-200 "}`}
           aria-label="Products"
            onClick={() => setActiveTab('Products')}
           defaultChecked
@@ -16,7 +16,7 @@ const Tab = ({carts,setActiveTab}) => {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-40"
+          className={`tab text-lg rounded-full w-40 ${activeTab === "Carts" ? "bg-amber-300" : "bg-gray-200"}`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab('Carts')}
         />
